@@ -22,8 +22,8 @@ def client_send(hostport, msg):
 
 
 if __name__ == '__main__':
-    # wait 30 seconds to make sure everyone's awake
-    sleep(30)
+    # make sure everyone's awake
+    sleep(10)
 
     # HyperDeck Ethernet Protocol server listens on port 9993
     hostport = ('192.168.0.166', 9993)
